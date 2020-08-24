@@ -1,0 +1,70 @@
+.segment1{
+	
+	background-image: url(../image/mbg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+	width:100%;
+}
+
+.segment1 h1{
+
+	text-align: center;
+	height: 50px;
+	color: slateblue;
+	font-size: 35px;
+	font-weight: 5px;
+	line-height:50px;
+	padding-top: 15px;
+	
+}
+
+.icons{text-align: center;
+		padding-top:10px; }
+.icons ul li {
+	list-style: none;
+	display: inline-block;}
+
+.icons ul li a i{
+	font-size: 30px;
+	height:50px;
+	width: 50px;
+	color: lavenderblush;
+	background-color: slateblue;
+	border-radius: 50px;
+	text-align: center;
+	line-height: 50px;
+	margin: 0 20px;
+    transition:0.3s }
+
+.icons ul li a i:hover{
+	background-color: maroon;
+	transition: 0.3s;
+	transform: scale(1.4);
+
+}
+.obox {
+	height: 500px;
+	width: 400px;	
+	border-radius: 5%;
+	background-color: darkmagenta;
+	margin-left: 950px;
+	margin-top: 20px;
+	position: relative;}
+
+.ibox {
+	height: 400px;
+	width:300px;
+	border-radius: 5%;
+	background-color: pink;
+	position: absolute; 
+	top: 50px;
+	left: 50px
+}
+.form-body{margin-top: 100px;
+	margin-bottom: 100px;
+	font-size: 17px;
+	color: darkmagenta;
+	text-align: center;
+}
